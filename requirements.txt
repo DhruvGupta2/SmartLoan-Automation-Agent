@@ -1,0 +1,27 @@
+# Core generative AI / Gemini / Google GenAI SDK
+google-genai==1.25.0             # modern SDK for Gemini / GenAI :contentReference[oaicite:0]{index=0}
+google-generativeai==0.8.5      # legacy SDK (for backward compatibility) :contentReference[oaicite:1]{index=1}
+
+# Agent orchestration / workflow / graph
+langgraph==0.6.10               # latest stable as of Oct 2025 :contentReference[oaicite:2]{index=2}
+langgraph[sqlite]==0.6.10       # include sqlite support (if optional extra)  
+langgraph-checkpoint-sqlite
+
+# LangChain & related tooling
+langchain           # a compatible version (you may need to test)  
+langchain-core         # for core abstractions  
+langchain-mcp-adapters   # hypothetical adapter version  
+
+# UI / streaming
+streamlit==1.24.1               # stable Streamlit release  
+
+# PDF generation
+fpdf2==2.7.4                     # fpdf2 version (commonly used)  
+
+# Utilities / graph / plotting
+networkx==3.1                   # network graph library  
+matplotlib==3.8.2               # plotting kernel  
+
+# Note: you listed langchain-google-genai, but that is not a standard package;
+# if you meant an integration, you may skip or replace with correct name
+gradio

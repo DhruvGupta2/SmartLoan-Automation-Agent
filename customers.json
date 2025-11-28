@@ -1,0 +1,70 @@
+[
+    {
+        "customer_id": "TC-1001",
+        "full_name": "Priya Sharma",
+        "age": 34,
+        "city": "Mumbai",
+        "kyc_details": {
+            "phone_number": "+919876543210",
+            "address": "123 Marine Drive, Mumbai, Maharashtra"
+        },
+        "financial_profile": {
+            "credit_score": 810,
+            "pre_approved_limit": 150000,
+            "monthly_salary": 90000,
+            "existing_loans": []
+        }
+    },
+    {
+        "customer_id": "TC-1002",
+        "full_name": "Rohan Verma",
+        "age": 45,
+        "city": "Delhi",
+        "kyc_details": {
+            "phone_number": "+919123456789",
+            "address": "456 Connaught Place, New Delhi, Delhi"
+        },
+        "financial_profile": {
+            "credit_score": 680,
+            "pre_approved_limit": 50000,
+            "monthly_salary": 60000,
+            "existing_loans": [
+                "Auto Loan"
+            ]
+        }
+    },
+    {
+        "customer_id": "TC-1003",
+        "full_name": "Anjali Mehta",
+        "age": 29,
+        "city": "Bangalore",
+        "kyc_details": {
+            "phone_number": "+919988776655",
+            "address": "789 MG Road, Bangalore, Karnataka"
+        },
+        "financial_profile": {
+            "credit_score": 780,
+            "pre_approved_limit": 100000,
+            "monthly_salary": 75000,
+            "existing_loans": []
+        }
+    },
+    {
+        "customer_id": "TC-1004",
+        "full_name": "Sameer Khan",
+        "age": 38,
+        "city": "Hyderabad",
+        "kyc_details": {
+            "phone_number": "+918877665544",
+            "address": "101 Hitec City, Hyderabad, Telangana"
+        },
+        "financial_profile": {
+            "credit_score": 790,
+            "pre_approved_limit": 120000,
+            "monthly_salary": 110000,
+            "existing_loans": [
+                "Home Loan"
+            ]
+        }
+    }
+]
